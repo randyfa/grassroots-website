@@ -61,8 +61,9 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 0.4rem 1.5rem;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 nav a {
@@ -183,3 +184,102 @@ footer p {
     font-size: 1.75rem;
   }
 }
+
+/* ---------- Topics ---------- */
+nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 4px; }
+
+.crumbs { font-size: 0.95rem; margin-bottom: 0.5rem; }
+.crumbs a, .to-top a, .topic-card h2 a, .jump a, .download-list a { color: var(--accent); }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--red);
+}
+
+.topic-intro { color: #4a5568; margin-bottom: 1rem; }
+
+.topic-tools { margin-bottom: 1rem; }
+.topic-tools .btn { margin-right: 0.5rem; }
+
+.btn-plain {
+  background: white;
+  color: var(--navy);
+  border: 2px solid var(--navy);
+  padding: calc(0.75rem - 2px) calc(1.5rem - 2px);
+}
+.btn-plain:hover { background: #edf2f7; }
+
+.jump {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  border-top: 4px solid var(--navy);
+}
+.jump ul { margin: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+
+.level {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid var(--accent);
+}
+.level-basic { border-left-color: var(--red); }
+.level-basic p:not(.level-label):not(.to-top) { font-size: 1.15rem; }
+.level-pending { border-left-color: #a0aec0; color: #4a5568; }
+.level-label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--red);
+  margin-bottom: 0.25rem;
+}
+.level h4 { color: var(--navy); margin: 1rem 0 0.25rem; }
+.level p { margin-bottom: 0.75rem; }
+.to-top { font-size: 0.9rem; margin: 0.5rem 0 0; }
+
+.closing {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--red);
+  margin: 2rem 0 1rem;
+}
+
+.topic-list { list-style: none; margin: 1.5rem 0 0; display: grid; gap: 1.25rem; }
+.topic-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 5px solid var(--red);
+}
+.topic-card h2 { font-size: 1.35rem; }
+.topic-card h2 a { color: var(--navy); text-decoration: none; }
+.topic-card h2 a:hover { text-decoration: underline; }
+.topic-meta { font-size: 0.9rem; color: #4a5568; margin-top: 0.5rem; }
+.topic-links .btn { margin-right: 0.5rem; }
+
+@media (max-width: 600px) {
+  .btn { padding: 0.65rem 1.1rem; }
+  .btn-plain { padding: calc(0.65rem - 2px) calc(1.1rem - 2px); }
+  .level, .topic-card { padding: 1.1rem; }
+  .level-basic p:not(.level-label):not(.to-top) { font-size: 1.05rem; }
+}
+
+@media print {
+  header, footer, .topic-tools, .jump, .crumbs, .to-top { display: none; }
+  body { background: white; font-size: 11pt; }
+  main { margin: 0; max-width: none; padding: 0; }
+  .level { border-left-width: 3px; padding: 0.5rem 0 0.5rem 1rem; break-inside: auto; }
+  .level h2 { break-after: avoid; }
+  h1 { font-size: 18pt; }
+  main::before { content: "Grassroots Conversations"; display: block; font-weight: bold; color: var(--navy); margin-bottom: 0.5rem; }
+  a { color: inherit; text-decoration: none; }
+}
+.section-title { margin-top: 1.5rem; }
+main p a:not(.btn) { color: var(--accent); }
