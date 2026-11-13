@@ -291,3 +291,6 @@ main p a:not(.btn) { color: var(--accent); }
 .hero-video { margin: 0; }
 .btn.btn-outline { background: transparent; color: var(--navy); border: 2px solid var(--navy); padding: calc(0.75rem - 2px) calc(1.5rem - 2px); }
 .btn.btn-outline:hover { background: var(--navy); color: white; }
+
+/* Spacing for stacked quote boxes on training background pages */
+.short + .short { margin-top: 0.75rem; }
