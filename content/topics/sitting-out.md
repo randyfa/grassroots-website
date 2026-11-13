@@ -33,7 +33,7 @@ Sitting out does not stop decisions; it transfers them to whoever remains organi
 
 A lot of people say, “I’m done. I’m sitting this one out.” After years of national noise, that feeling makes sense.
 
-Here’s the bridge: “I get the frustration. Staying involved is the only way things improve.”
+Here’s the bridge: “A lot of people feel that way. What’s the one local result that would make it worth showing up for your family?”
 
 Then we point to the practical reality: when good people sit out, the decisions on costs, safety, water, and schools still get made — just by whoever shows up. We ask which local issue is weighing on them most, we listen, and we offer one small step: check registration, talk to one neighbor, or cover one block.
 
