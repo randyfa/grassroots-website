@@ -294,3 +294,5 @@ main p a:not(.btn) { color: var(--accent); }
 
 /* Spacing for stacked quote boxes on training background pages */
 .short + .short { margin-top: 0.75rem; }
+
+.footer-legal { font-size: 0.8rem; opacity: 0.8; margin-top: 0.25rem; }
