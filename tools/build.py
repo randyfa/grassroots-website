@@ -213,7 +213,7 @@ def topic_body(t):
             '      <h2>Expanded levels coming soon</h2>\n'
             '      <p>The expanded versions of this bridge (one-pager, white paper, and two-minute '
             'conversation) are being added. Start with the basic bridge above: listen first, '
-            'mirror, and connect to one practical action.</p>\n    </section>'
+            'talk from the heart, and connect to one practical next step.</p>\n    </section>'
         )
     parts.append('    <p class="closing">Neighbors talking to neighbors. We are the they.</p>')
     return "\n".join(parts)
@@ -233,7 +233,7 @@ def menu_body(topics):
         <p class="topic-links"><a class="btn" href="{t['slug']}.html">Open topic</a> <a class="btn btn-plain" href="../downloads/{t['slug']}.pdf" download>Download PDF</a></p>
       </li>""")
     return f"""    <h1>Conversations by Topic</h1>
-    <p>Return to the original social media — neighbors talking to neighbors. Pick the line you are hearing. Each topic opens with the basic bridge, then the expanded levels for training or when the setting allows. Listen first on local issues, and match the ask to the setting.</p>
+    <p>Return to the original social media — neighbors talking to neighbors. Pick the line you are hearing at the door. Start with the short bridge. The expanded levels are there for training, or when the setting allows you to go further. Listen first. Talk from the heart.</p>
     <ul class="topic-list">
 {chr(10).join(cards)}
     </ul>

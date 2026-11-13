@@ -3,7 +3,7 @@ title: “I’m independent / both parties are the same.”
 order: 1
 source: Grassroots_Conversations_Expanded_Bridges_Top_Two_Updated (Google Doc, updated Nov 4, 2026)
 ---
-(Includes Arizona Party Not Designated (PND), Other, and Independent registrations. These are treated the same under Arizona law and form the practical unaffiliated pool.)
+In Arizona, Independent, Party Not Designated (PND), and Other are treated the same. This page is for when you hear that someone doesn’t want to pick a party, or that both parties are the same. Listen first. Talk from the heart. Then use the bridge that fits the setting.
 
 ## Level 1 — Short Conversational Bridge
 *“A lot of people feel that way. Most people registered as independent, PND, or other still lean one direction and vote like partisans. I’m focused on results — costs and safer streets — not the drama. What’s hitting your family most right now?”*

@@ -3,6 +3,9 @@ title: “I’m done / sitting this one out.”
 order: 2
 source: Level 1 from Grassroots_Conversations_Expanded_Bridges_Top_Two_Updated (Google Doc, Nov 4, 2026); Levels 2–4 from Grassroots_Conversations_Expanded_Bridges_Top_Two.docx (Oct 2026)
 ---
+
+This page is for when someone is frustrated and ready to sit the election out. Listen first. Talk from the heart. Don’t argue. Find the one local issue that would make it worth showing up for their family.
+
 ## Level 1 — Short Conversational Bridge
 *“A lot of people feel that way. What’s the one local result that would make it worth showing up for your family?”*
 
