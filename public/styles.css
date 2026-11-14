@@ -314,3 +314,7 @@ main p a:not(.btn) { color: var(--accent); }
 .steps li::before { content: counter(step); position: absolute; left: 1rem; top: 0.85rem; width: 1.8rem; height: 1.8rem; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700; text-align: center; line-height: 1.8rem; }
 .steps li strong { color: var(--navy); }
 .steps li em { display: inline-block; margin-top: 0.35rem; color: #2d3748; }
+
+.bridge-more { margin: 0.75rem 0 0; font-weight: 600; }
+.bridge-more a { color: var(--navy); }
+.bridge-soon { color: #718096; font-weight: 400; font-style: italic; }
