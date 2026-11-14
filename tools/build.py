@@ -37,13 +37,21 @@ NAV = [
     ("downloads.html", "Downloads"),
 ]
 
-# Doc level number -> (anchor id, short label shown above the heading)
-LEVELS = {
-    "1": ("basic", "Basic Bridge"),
-    "2": ("level-2", "Expanded Bridge"),
-    "3": ("level-3", "Expanded Bridge"),
-    "4": ("level-4", "Expanded Bridge"),
+# Section heading -> (anchor id, one-line "what this is for" shown under the heading)
+SECTIONS = {
+    "short bridge": ("short-bridge",
+        "Use this after you’ve listened and let them know you heard them. It’s one or two sentences that move "
+        "the talk from the national noise to something local they care about, and it ends with a question so "
+        "they keep talking. If they open up, keep listening. If not, thank them and move on."),
+    "the issue and expanded bridge": ("expanded-bridge",
+        "The facts behind the issue and a longer bridge, for when they want to keep talking."),
+    "deeper background": ("background",
+        "For your own preparation. You don’t need to recite this. It helps you understand why people feel "
+        "this way and answer questions with confidence."),
+    "2-minute two-person conversation": ("conversation",
+        "A sample conversation from start to finish. Practice it with a partner until it sounds like you."),
 }
+ORDER = ["short-bridge", "expanded-bridge", "background", "conversation"]
 
 
 # ---------------------------------------------------------------- parsing
@@ -68,9 +76,7 @@ def parse_topic(path):
         else:
             cur["lines"].append(line)
     for s in sections:
-        lm = re.match(r"Level\s+(\d+)", s["heading"])
-        num = lm.group(1) if lm else None
-        s["id"], s["label"] = LEVELS.get(num, (slugify(s["heading"]), ""))
+        s["id"], s["label"] = SECTIONS.get(s["heading"].strip().lower(), (slugify(s["heading"]), ""))
     title = meta.get("title", path.stem)
     return {
         "slug": meta.get("slug", path.stem),
@@ -177,14 +183,7 @@ def page(title, body, prefix, current):
 
 def topic_body(t):
     have = {s["id"] for s in t["sections"]}
-    jump = []
-    for aid, (label, name) in [("basic", ("Basic Bridge", "")), ("level-2", ("Level 2", "")),
-                                ("level-3", ("Level 3", "")), ("level-4", ("Level 4", ""))]:
-        if aid in have:
-            sec = next(s for s in t["sections"] if s["id"] == aid)
-            short = sec["heading"].split("—", 1)[-1].strip() if aid != "basic" else "Basic Bridge"
-            txt = short if aid == "basic" else f"{label}: {short}"
-            jump.append(f'<li><a href="#{aid}">{html.escape(txt)}</a></li>')
+    jump = [f'<li><a href="#{s["id"]}">{html.escape(s["heading"])}</a></li>' for s in t["sections"]]
     parts = [
         '    <p class="crumbs"><a href="index.html">All topics</a></p>',
         '    <p class="eyebrow">If you hear this</p>',
@@ -200,21 +199,21 @@ def topic_body(t):
     )
     parts.append('    <nav class="jump" aria-label="On this page"><ul>' + "".join(jump) + "</ul></nav>")
     for s in t["sections"]:
-        cls = "level level-basic" if s["id"] == "basic" else "level"
-        label = f'<p class="level-label">{html.escape(s["label"])}</p>' if s["label"] else ""
+        cls = "level level-basic" if s["id"] == "short-bridge" else "level"
+        note = f'<p class="level-note">{html.escape(s["label"])}</p>' if s["label"] else ""
         parts.append(
-            f'    <section class="{cls}" id="{s["id"]}">\n      {label}\n'
-            f'      <h2>{html.escape(s["heading"])}</h2>\n'
+            f'    <section class="{cls}" id="{s["id"]}">\n'
+            f'      <h2>{html.escape(s["heading"])}</h2>\n      {note}\n'
             f'      {md_to_html(chr(10).join(s["lines"]))}\n'
             '      <p class="to-top"><a href="#top">Back to top</a></p>\n    </section>'
         )
-    missing = [n for n in ("level-2", "level-3", "level-4") if n not in have]
+    missing = [n for n in ORDER[1:] if n not in have]
     if missing:
         parts.append(
             '    <section class="level level-pending">\n'
-            '      <h2>Expanded levels coming soon</h2>\n'
-            '      <p>The expanded versions of this bridge (one-pager, white paper, and two-minute '
-            'conversation) are being added. Start with the basic bridge above: listen first, '
+            '      <h2>More coming soon</h2>\n'
+            '      <p>The expanded bridge, deeper background, and two-minute '
+            'conversation for this topic are being added. Start with the short bridge above: listen first, '
             'talk from the heart, and connect to one practical next step.</p>\n    </section>'
         )
     parts.append('    <p class="closing">Neighbors talking to neighbors. We are the they.</p>')
@@ -224,10 +223,10 @@ def topic_body(t):
 def menu_body(topics):
     cards = []
     for t in topics:
-        basic = next((s for s in t["sections"] if s["id"] == "basic"), None)
+        basic = next((s for s in t["sections"] if s["id"] == "short-bridge"), None)
         preview = md_to_html("\n".join(basic["lines"])) if basic else ""
         n_levels = len(t["sections"])
-        status = "Basic bridge + expanded levels 2–4" if n_levels >= 4 else "Basic bridge (expanded levels coming)"
+        status = "Short bridge, expanded bridge, background, and two-minute conversation" if n_levels >= 4 else "Short bridge (more coming)"
         cards.append(f"""      <li class="topic-card">
         <h2><a href="{t['slug']}.html">{html.escape(t['title'])}</a></h2>
         <div class="short">{preview}</div>
@@ -235,7 +234,7 @@ def menu_body(topics):
         <p class="topic-links"><a class="btn" href="{t['slug']}.html">Open topic</a> <a class="btn btn-plain" href="../downloads/{t['slug']}.pdf" download>Download PDF</a></p>
       </li>""")
     return f"""    <h1>Conversations by Topic</h1>
-    <p>Return to the original social media — neighbors talking to neighbors. Pick the line you are hearing at the door. Start with the short bridge. The expanded levels are there for training, or when the setting allows you to go further. Listen first. Talk from the heart.</p>
+    <p>Return to the original social media — neighbors talking to neighbors. Pick the line you are hearing at the door. Start with the short bridge. The rest of each page is there for training, or when the setting allows you to go further. Listen first. Talk from the heart.</p>
     <ul class="topic-list">
 {chr(10).join(cards)}
     </ul>
@@ -247,8 +246,8 @@ def topic_text(t):
     if t["intro"]:
         out += [md_to_text(t["intro"]), ""]
     for s in t["sections"]:
-        head = (s["label"] + ": " if s["label"] else "") + s["heading"]
-        out += [head.upper(), "-" * len(head), md_to_text("\n".join(s["lines"])), ""]
+        head = s["heading"]
+        out += [head.upper(), "-" * len(head)] + ([s["label"], ""] if s["label"] else []) + [md_to_text("\n".join(s["lines"])), ""]
     out += ["Neighbors talking to neighbors. We are the they.", "grassrootsconversations.com", ""]
     return "\n".join(out)
 

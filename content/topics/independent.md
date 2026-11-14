@@ -5,10 +5,10 @@ source: Grassroots_Conversations_Expanded_Bridges_Top_Two_Updated (Google Doc, u
 ---
 In Arizona, Independent, Party Not Designated (PND), and Other are treated the same. This page is for when you hear that someone doesn’t want to pick a party, or that both parties are the same. Listen first. Talk from the heart. Then use the bridge that fits the setting.
 
-## Level 1 — Short Conversational Bridge
+## Short Bridge
 *“A lot of people feel that way. Most people registered as independent, PND, or other still lean one direction and vote like partisans. I’m focused on results — costs and safer streets — not the drama. What’s hitting your family most right now?”*
 
-## Level 2 — One-Pager
+## The Issue and Expanded Bridge
 **The issue**  
 Many independents, PND, and Other-registered voters say both parties look the same because national arguments dominate what they see. Data shows most people in these categories still lean toward one party and vote like partisans. Only a small slice is truly non-leaning.  
 **Short background**  
@@ -17,7 +17,7 @@ In Arizona, Independent, Party Not Designated (PND), and Other are all treated a
 “I hear you — a lot of people feel both sides argue more than they deliver. Most people registered independent, PND, or other still lean one way. On the things that hit us here — grocery bills, neighborhood safety, water with the growth — which of those is weighing on you most right now?” Listen, mirror, and offer one next step (registration check, one neighbor conversation, or covering one block). If the conversation is in a primary season, note that independents, PND, and Other voters can request a Republican ballot.  
 *Close with ownership when it fits: “We are the they. What’s the one block or one person you’ll cover?”*
 
-## Level 3 — White Paper
+## Deeper Background
 **Why the claim appears**  
 National media and social feeds reward conflict. Both parties are portrayed through the same high-volume frames, so many voters conclude they are interchangeable. The feeling is real even when most people registered as independent, PND, or Other are actually partisan leaners and local governance differences are visible in budgets, public-safety response, water policy, and school-board outcomes.  
 **Supporting data and local context**
@@ -33,7 +33,7 @@ National media and social feeds reward conflict. Both parties are portrayed thro
 “Both parties are the same” is often a reaction to national media volume, not a rejection of local results. Most people in the Independent / PND / Other categories already lean. Shifting the conversation to one measurable local outcome restores agency without requiring party loyalty. The person does not need to become a partisan; they only need to care about one concrete result and take one practical step.
 
 
-## Level 4 — 2-Minute Two-Person Conversation
+## 2-Minute Two-Person Conversation
 *Setting: Front porch or sidewalk. Neighbor has just said they are independent and both parties are the same.*
 
 **Neighbor:** I’m independent. Both parties are the same. I’m not sure any of it matters.  

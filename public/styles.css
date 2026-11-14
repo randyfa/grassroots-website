@@ -229,7 +229,7 @@ nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 
   border-left: 5px solid var(--accent);
 }
 .level-basic { border-left-color: var(--red); }
-.level-basic p:not(.level-label):not(.to-top) { font-size: 1.15rem; }
+.level-basic p:not(.level-label):not(.level-note):not(.to-top) { font-size: 1.15rem; }
 .level-pending { border-left-color: #a0aec0; color: #4a5568; }
 .level-label {
   text-transform: uppercase;
@@ -268,7 +268,7 @@ nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 
   .btn { padding: 0.65rem 1.1rem; }
   .btn-plain { padding: calc(0.65rem - 2px) calc(1.1rem - 2px); }
   .level, .topic-card { padding: 1.1rem; }
-  .level-basic p:not(.level-label):not(.to-top) { font-size: 1.05rem; }
+  .level-basic p:not(.level-label):not(.level-note):not(.to-top) { font-size: 1.05rem; }
 }
 
 @media print {
@@ -296,3 +296,5 @@ main p a:not(.btn) { color: var(--accent); }
 .short + .short { margin-top: 0.75rem; }
 
 .footer-legal { font-size: 0.8rem; opacity: 0.8; margin-top: 0.25rem; }
+
+.level-note { color: #4a5568; font-size: 0.95rem; font-style: normal; margin: -0.25rem 0 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; }
