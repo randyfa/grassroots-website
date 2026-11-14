@@ -26,7 +26,7 @@ Disengaged Republicans and independents often hear that both parties are the sam
 The Founders designed a limited government to protect God-given rights. Heritage and Hillsdale resources show how progressivism and modern socialism have moved away from that design. DSA proposals to abolish core institutions and Islamist prioritization of religious law over equal rights stand in direct contrast. National media framing doesn’t always match the primary data on household costs and border numbers, so check the original sources.
 **The bridge**
 “I hear the frustration. On the things that protect your family — costs, safety, schools, the border — the Constitution still gives us the best tools. Which of those is weighing on you most right now?” Listen, then offer one local next step. When appropriate: “No candidate is perfect. The practical choice is between a fallen person whose policies still protect ordered liberty and someone whose policies lead communities into greater harm.”
-*Close when it fits: “We are the they. What’s the one block or one person you’ll cover?”*
+*Close when it fits: “We are the they. Who’s the next neighbor, the next person, you’ll talk to?”*
 
 ## Deeper Background
 **Supporting frame**
@@ -54,7 +54,7 @@ Local turnout still decides who protects or erodes these foundations. Precinct c
 **Neighbor:** But every candidate has problems. Why choose?  
 **You:** No candidate is perfect. The practical question is whether we choose a fallen person whose policies still protect the family and the Constitution, or someone whose policies lead whole communities into greater harm. Local turnout is what decides that here.  
 **Neighbor:** I’m not sure I want to get involved.  
-**You:** No pressure. Would you be willing to check one neighbor’s registration or cover one block this month? I’ll follow up. We are the they. What’s one person you’d feel comfortable talking to?
+**You:** No pressure. Would you be willing to check one neighbor’s registration or talk with the next neighbor this month? I’ll follow up. We are the they. What’s one person you’d feel comfortable talking to?
 
 ## How to Use This Frame
 * Treat this document as optional and setting-sensitive. Republican club rooms can go deeper; pure civic settings stay nonpartisan and local.

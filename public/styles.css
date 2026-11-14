@@ -318,3 +318,6 @@ main p a:not(.btn) { color: var(--accent); }
 .bridge-more { margin: 0.75rem 0 0; font-weight: 600; }
 .bridge-more a { color: var(--navy); }
 .bridge-soon { color: #718096; font-weight: 400; font-style: italic; }
+
+.network-figure { margin: 0 0 1.5rem; }
+.network-figure img { display: block; width: 100%; height: auto; border-radius: 8px; border: 1px solid #e2e8f0; }

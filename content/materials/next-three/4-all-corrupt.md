@@ -13,7 +13,7 @@ The belief that “they’re all corrupt” or “nothing ever changes” is a c
 Some skepticism is justified. At the same time, local offices and local races are decided by turnout. When fewer people participate, the same small groups continue to set policy on taxes, growth, water, safety, and schools. Local results can and do change when neighbors organize around concrete issues.
 **The bridge**
 “Some of that feeling is fair. Local turnout still decides who we get. On the issue that matters most to your family right now, would you be open to one practical step so the people who show up include you?” Listen, mirror, and close on a single commitment.
-*Ownership close: “We are the they. What’s the one block or one person you’ll cover?”*
+*Ownership close: “We are the they. Who’s the next neighbor, the next person, you’ll talk to?”*
 
 ## Deeper Background
 **Why the claim resonates**
@@ -22,7 +22,7 @@ High-profile national and state examples of misconduct or unfulfilled promises r
 
 * Local elections in Yavapai County (school boards, municipal races, bonds, county offices) draw fewer voters than presidential races, and some are decided by a few hundred votes.
 * Policy on growth management, water, public safety, and local taxes is set by the officials who win those races.
-* Organized neighbor-level participation (registration, one block covered, PC interest) adds voters where margins are smallest, which is where one person’s effort counts most.
+* Organized neighbor-level participation (registration, the next neighbor reached, PC interest) adds voters where margins are smallest, which is where one person’s effort counts most.
 * Acknowledging that some skepticism is fair lowers defensiveness and opens the door to a practical local discussion.
 
 **The perspective shift**

@@ -13,7 +13,7 @@ Personal dislike of a national figure or of the party brand is a frequent reason
 The Grassroots Conversations model deliberately does not lead with national framing. The goal is trust plus a practical next step on an issue the person already cares about. Costs, neighborhood safety, water with growth, housing, and school options can be discussed without requiring affection for any national figure or party label.
 **The bridge**
 “You don’t have to like anyone to care about costs, safety, and schools. Which of those is weighing on you and your family most right now?” Listen, mirror, and offer one local next step. Keep party language out unless they raise it.
-*Ownership close: “We are the they. What’s the one block or one person you’ll cover?”*
+*Ownership close: “We are the they. Who’s the next neighbor, the next person, you’ll talk to?”*
 
 ## Deeper Background
 **Why the objection appears**

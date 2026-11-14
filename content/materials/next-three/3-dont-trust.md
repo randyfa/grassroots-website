@@ -13,7 +13,7 @@ Distrust of both parties is common among independents and disengaged Republicans
 Trust is rebuilt more easily on local, concrete issues than on national identity. Costs, neighborhood safety, water with growth, school options, and infrastructure are problems residents experience directly. Local decisions on those issues are still made by people who show up. Starting with the person’s own concern rather than a party label reduces the defensive reaction.
 **The bridge**
 “Trust is earned. That’s why I start with what’s hitting your family, not a party speech. What’s the biggest thing affecting you and your family right now — costs, safety, water, schools?” Listen, mirror, and connect to one practical local step.
-*Ownership close when ready: “We are the they. What’s the one block or one person you’ll cover?”*
+*Ownership close when ready: “We are the they. Who’s the next neighbor, the next person, you’ll talk to?”*
 
 ## Deeper Background
 **Why distrust is widespread**

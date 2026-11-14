@@ -143,7 +143,7 @@ def main():
             topics_from((SRC / "next-three").glob("*.md"))),
         "positive-conservative-frame": shell(frame["title"], "Optional companion document",
             topic_html(frame, show_eyebrow=False) + CLOSE),
-        "ground-network-tracker": fragment("ground-network-tracker.html"),
+        "grassroots-network-tracker": fragment("grassroots-network-tracker.html"),
     }
     OUT.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:

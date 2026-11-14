@@ -33,7 +33,7 @@ NAV = [
     ("training.html", "Training"),
     ("topics/index.html", "Topics"),
     ("bridges.html", "Conversation Bridges"),
-    ("partners.html", "Partners & Ground Network"),
+    ("partners.html", "Partners & Grassroots Network"),
     ("resources.html", "Resources"),
 ]
 
