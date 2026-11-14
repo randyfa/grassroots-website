@@ -4,7 +4,7 @@ order: 5
 source: Grassroots_Conversations_Expanded_Bridges_Next_Three.docx (Oct 2026)
 ---
 ## Short Bridge
-*“You don’t have to like anyone to care about costs, safety, and schools.”*
+*“Fair enough. This conversation is about local results that affect your family, not national personalities. Which local issue is weighing on you most?”*
 
 ## The Issue and Expanded Bridge
 **The issue**

@@ -4,7 +4,7 @@ order: 4
 source: Grassroots_Conversations_Expanded_Bridges_Next_Three.docx (Oct 2026)
 ---
 ## Short Bridge
-*“Some of that feeling is fair. Local turnout still decides who we get.”*
+*“A lot of people feel that way. Local turnout still decides school boards, city, and county outcomes. What’s one result that would matter to your family?”*
 
 ## The Issue and Expanded Bridge
 **The issue**
@@ -20,9 +20,9 @@ Some skepticism is justified. At the same time, local offices and local races ar
 High-profile national and state examples of misconduct or unfulfilled promises reinforce the sense that systems are rigged or inert. The generalization (“they’re all the same / nothing changes”) becomes a protective stance that reduces the emotional cost of disengagement.
 **Supporting context**
 
-* Local elections in Yavapai County (school boards, municipal races, bonds, county offices) are frequently decided by relatively small margins or low absolute numbers of voters.
+* Local elections in Yavapai County (school boards, municipal races, bonds, county offices) draw fewer voters than presidential races, and some are decided by a few hundred votes.
 * Policy on growth management, water, public safety, and local taxes is set by the officials who win those races.
-* Organized neighbor-level participation (registration, one block covered, PC interest) has historically shifted local outcomes more reliably than national messaging.
+* Organized neighbor-level participation (registration, one block covered, PC interest) adds voters where margins are smallest, which is where one person’s effort counts most.
 * Acknowledging that some skepticism is fair lowers defensiveness and opens the door to a practical local discussion.
 
 **The perspective shift**

@@ -4,7 +4,7 @@ order: 3
 source: Grassroots_Conversations_Expanded_Bridges_Next_Three.docx (Oct 2026)
 ---
 ## Short Bridge
-*“Trust is earned. That’s why I start with what’s hitting your family, not a party speech.”*
+*“I hear the distrust. On the things that protect your family locally—costs, safety, schools—which still matters most to you?”*
 
 ## The Issue and Expanded Bridge
 **The issue**
