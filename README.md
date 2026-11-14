@@ -41,7 +41,7 @@ Static site for grassrootsconversations.com. Files in `public/` deploy automatic
 
    Level 1 is shown as the **Basic Bridge**; Levels 2–4 are shown as **Expanded Bridge** sections. Leave out levels that are not written yet and the page shows "Expanded levels coming soon".
    Supported formatting: `**bold**`, `*italic*`, `* ` bullet lists, a line that is only `**bold**` becomes a sub-heading.
-3. Run `python3 tools/build.py`. It rebuilds `public/topics/`, `public/downloads/<topic>.pdf` and `.txt`, and the topic list on `downloads.html`.
+3. Run `python3 tools/build.py`. It rebuilds `public/topics/`, `public/downloads/<topic>.pdf` and `.txt`, and the topic list on `resources.html`.
    PDFs need Chrome or Chromium. The most reliable is chrome-headless-shell:
    `npx @puppeteer/browsers install chrome-headless-shell@stable`, then `CHROME=/path/to/chrome-headless-shell python3 tools/build.py`.
 4. Preview locally (open `public/topics/index.html` in a browser), then commit everything (content and generated files) and push. Pushing to `main` publishes the site.

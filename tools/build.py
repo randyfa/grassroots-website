@@ -6,7 +6,7 @@ Writes  public/topics/index.html        (topic menu)
         public/topics/<slug>.html       (one page per topic)
         public/downloads/<slug>.pdf     (printable copy, needs Chrome/Chromium)
         public/downloads/<slug>.txt     (plain-text copy)
-and refreshes the topic list on public/downloads.html between the
+and refreshes the topic list on public/resources.html between the
 <!-- TOPICS:START --> and <!-- TOPICS:END --> markers.
 
 Standard library only. Run from anywhere:  python3 tools/build.py
@@ -34,7 +34,7 @@ NAV = [
     ("topics/index.html", "Topics"),
     ("bridges.html", "Conversation Bridges"),
     ("partners.html", "Partners & Ground Network"),
-    ("downloads.html", "Downloads"),
+    ("resources.html", "Resources"),
 ]
 
 # Section heading -> (anchor id, one-line "what this is for" shown under the heading)
@@ -276,9 +276,9 @@ def make_pdf(chrome, html_path, pdf_path):
         )
 
 
-# ---------------------------------------------------------------- downloads.html list
+# ---------------------------------------------------------------- resources.html list
 def update_downloads_page(topics):
-    p = PUBLIC / "downloads.html"
+    p = PUBLIC / "resources.html"
     if not p.exists():
         return
     s = p.read_text(encoding="utf-8")
