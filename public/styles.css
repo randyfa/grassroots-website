@@ -298,3 +298,13 @@ main p a:not(.btn) { color: var(--accent); }
 .footer-legal { font-size: 0.8rem; opacity: 0.8; margin-top: 0.25rem; }
 
 .level-note { color: #4a5568; font-size: 0.95rem; font-style: normal; margin: -0.25rem 0 1rem; padding-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0; }
+
+.video-feature h3, .article-card h3 { color: var(--navy); margin: 0 0 0.75rem; font-size: 1.25rem; }
+.shelf-note { color: #4a5568; font-style: italic; margin: -0.5rem 0 2rem; }
+.article-list { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; gap: 1rem; }
+.article-card { background: #fff; border: 1px solid #e2e8f0; border-left: 4px solid var(--navy); border-radius: 6px; padding: 1.1rem 1.25rem; }
+.article-card h3 a { color: var(--navy); text-decoration: none; }
+.article-card h3 a:hover { color: var(--red); text-decoration: underline; }
+.article-card p { margin: 0; color: #2d3748; }
+.before-you-go { border-top: 2px solid var(--red); padding-top: 1rem; margin-top: 1rem; }
+.before-you-go h2 { font-size: 1.2rem; color: var(--navy); margin-bottom: 0.5rem; }
